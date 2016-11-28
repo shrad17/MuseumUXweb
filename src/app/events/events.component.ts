@@ -5,9 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './events.component.html',
 })
 export class EventsComponent implements OnInit {
-
-  constructor() { }
-
+  selectedEvent: Event;
+  constructor() {}
   ngOnInit() {
   }
 

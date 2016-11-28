@@ -1,8 +1,8 @@
 <div class= "row">
   <div class="col-md-5">
-    Event Name
+    <ux-event-list (eventSelected)="selectedEvent = $event"></ux-event-list>
   </div>
   <div class="col-md-7">
-    Event Details
+      <ux-event-detail [selectedEvent]="selectedEvent"></ux-event-detail>
   </div>
 </div>
